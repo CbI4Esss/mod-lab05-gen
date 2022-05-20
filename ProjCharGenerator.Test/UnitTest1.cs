@@ -27,7 +27,7 @@ namespace ProjCharGenerator.Test
                 result += ch;
                 i++;
             }
-            Assert.IsTrue(result.Equals("яаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяаяа"));
+            Assert.IsTrue(result.Equals("СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°СЏР°"));
         }
         [TestMethod]
         public async Task TestMethod2Async()
@@ -47,7 +47,7 @@ namespace ProjCharGenerator.Test
                 result += ch;
                 i++;
             }
-            Assert.IsTrue(result.Equals("зазазазазазазазазазазазазазазазазазазазазазазазаза"));
+            Assert.IsTrue(result.Equals("Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°Р·Р°"));
         }
         [TestMethod]
         public async Task TestMethod3Async()
@@ -66,7 +66,7 @@ namespace ProjCharGenerator.Test
                     stat.Add(word, 1); result += word + " ";
                 i++;
             }
-            Assert.IsTrue(result.Equals("этом этом этом "));
+            Assert.IsTrue(result.Equals("СЌС‚РѕРј СЌС‚РѕРј СЌС‚РѕРј "));
         }
         [TestMethod]
         public async Task TestMethod4Async()
@@ -85,7 +85,7 @@ namespace ProjCharGenerator.Test
                     stat.Add(word, 1); result += word + " ";
                 i++;
             }
-            Assert.IsTrue(result.Equals("которые которые которые "));
+            Assert.IsTrue(result.Equals("РєРѕС‚РѕСЂС‹Рµ РєРѕС‚РѕСЂС‹Рµ РєРѕС‚РѕСЂС‹Рµ "));
         }
         [TestMethod]
         public async Task TestMethod5Async()
@@ -104,7 +104,7 @@ namespace ProjCharGenerator.Test
                     stat.Add(word, 1); result += word + " ";
                 i++;
             }
-            Assert.IsTrue(result.Equals("так что так что так что "));
+            Assert.IsTrue(result.Equals("С‚Р°Рє С‡С‚Рѕ С‚Р°Рє С‡С‚Рѕ С‚Р°Рє С‡С‚Рѕ "));
         }
         [TestMethod]
         public async Task TestMethod6Async()
@@ -123,7 +123,7 @@ namespace ProjCharGenerator.Test
                     stat.Add(word, 1); result += word + " ";
                 i++;
             }
-            Assert.IsTrue(result.Equals("в этом в этом в этом "));
+            Assert.IsTrue(result.Equals("РІ СЌС‚РѕРј РІ СЌС‚РѕРј РІ СЌС‚РѕРј "));
         }
     }
 }
